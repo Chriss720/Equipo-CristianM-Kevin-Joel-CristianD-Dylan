@@ -1,0 +1,65 @@
+GUIA PARA COMPLETAR EL RETO 1 (WINDOWS)
+========================================
+
+Sigan estos pasos en su computadora usando PowerShell:
+
+PASO 1: Clonar el repositorio y entrar al proyecto
+--------------------------------------------------
+Abran PowerShell en la carpeta donde guarden sus proyectos y ejecuten:
+
+git clone https://github.com/Chriss720/Equipo-CristianM-Kevin-Joel-CristianD-Dylan.git
+cd "Equipo-CristianM-Kevin-Joel-CristianD-Dylan\Retos sobre la ruta de Django\plataforma-entregas"
+
+
+PASO 2: Crear el entorno virtual
+--------------------------------
+py -m venv .venv
+
+(Si les dice que no reconoce 'py', usen: python -m venv .venv)
+
+
+PASO 3: Activar el entorno virtual
+----------------------------------
+.\.venv\Scripts\Activate.ps1
+
+NOTA: Si PowerShell muestra error en rojo sobre "ExecutionPolicy" o permisos de scripts, ejecuten primero:
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+.\.venv\Scripts\Activate.ps1
+
+(Sabran que esta activo porque aparecera (.venv) al inicio de la linea de la terminal).
+
+
+PASO 4: Instalar las dependencias
+---------------------------------
+pip install -r requirements.txt
+
+
+PASO 5: Evidencia 1 - Comprobar el entorno
+------------------------------------------
+Ejecuten el comando:
+python -c "import sys; print(sys.prefix)"
+
+ACCION EVIDENCIA 1:
+Tomen una captura de pantalla de su terminal donde se vea:
+- El comando ejecutado.
+- La ruta que les devolvio (debe terminar en .venv).
+
+
+PASO 6: Iniciar el servidor
+---------------------------
+python manage.py runserver
+
+
+PASO 7: Evidencia 2 - Navegador
+-------------------------------
+1. Abran su navegador (Chrome, Edge, etc.).
+2. Vayan a:
+   http://127.0.0.1:8000/entregas/estado/
+
+ACCION EVIDENCIA 2:
+Tomen una captura de pantalla del navegador donde se vea la pagina con el JSON y la URL en la barra de direcciones.
+
+
+PASO 8: Compartir evidencias
+----------------------------
+Pasenle las 2 capturas a Cristian con su nombre completo para agregarlas a EXTRA.md.
