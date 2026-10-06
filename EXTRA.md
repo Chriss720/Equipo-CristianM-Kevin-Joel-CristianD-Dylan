@@ -31,6 +31,13 @@ C:\Users\chiva\Downloads\Equipo-CristianM-Kevin-Joel-CristianD-Dylan\Equipo-Cris
 C:\Users\Sears\Documents\RetosAlcaraz\Equipo-CristianM-Kevin-Joel-CristianD-Dylan\Retos sobre la ruta de Django\plataforma-entregas\.venv
 ```
 
+#### Dylan Barranco Vargas
+![Salida sys.prefix - Kevin Cuevas](evidencias/reto1_sys_prefix_Dylan.png)
+
+```text
+C:\Users\chato\Desktop\Equipo-CristianM-Kevin-Joel-CristianD-Dylan\Retos sobre la ruta de Django\plataforma-entregas\.venv
+```
+
 ### Evidencias: Captura de `/entregas/estado/` en el navegador
 
 #### Cristian Mercado Martin
@@ -42,3 +49,5 @@ C:\Users\Sears\Documents\RetosAlcaraz\Equipo-CristianM-Kevin-Joel-CristianD-Dyla
 #### Kevin Alejandro Cuevas Crisantos
 <img src="./evidencias/reto1_navegador_kevin_c.png" alt="Captura /entregas/estado/ - Kevin Cuevas" width="100%" />
 
+#### Dylan Barranco Vargas
+<img src="./evidencias/reto1_navegador_Dylan.png" alt="Captura /entregas/estado/ - Dylan Barranco" width="100%" />
